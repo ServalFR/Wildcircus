@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Wild Circus/Contact</title>
+<link rel="stylesheet" type="texte/css" href="style.css"/>
+<style>
+a { 
+	text-decoration:none; 
+}  
+</style>
+</head>
+<body>
+<header>	
+<div id="title"></div>
+
+<nav id="menu">
+    <ul id="menu-deroulant">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shows.html">Shows</a>
+            <ul class="sous-menu">
+			<li><a href="show1.html">Wild magic forest</a></li>
+			<li><a href="show2.html">Wild magic beast</a></li>
+			<li><a href="show3.html">Wild magic skie</a></li>
+			</ul>
+			</li>
+			<li><a href="group.html">Group</a></li>
+        <li><a href="contact.html">Contact</a></li>
+		</ul>
+    </nav>
+</header>   
+<form id="myform" class="cssform" action="phpmailer.php">
+
+	<p><label for="user">Name :</label>
+	<input type="text" id="user" value="" /></p>
+
+	<p><label for="emailaddress">Email :</label>
+	<input type="text" id="emailaddress" value="" /></p>
+
+	<p><label for="comments">Message :</label>
+	<textarea id="comments" rows="5" cols="25"></textarea></p>
+
+	<p><label for="comments">Sexe :</label>
+	Man<input type="radio" name="sex" />
+	Woman<input type="radio" name="sex" />
+	Koala<input type="radio" name="sex" />
+    Panda<input type="radio" name="sex" /></p>
+
+	<div id="send" style="margin-left: 150px;">
+		<input type="submit" value="submit" />
+		<input type="reset" value="reset" />
+	</div>
+</form>
+
+<footer id="footer">
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+	<div class="footer"align=center>Copyright©-PEYTHIEU Joffrey</div>
+</footer>
+<script>
+</script>
+</body>
+<script></script>
+</html>

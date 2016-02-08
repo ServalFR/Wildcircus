@@ -1,0 +1,400 @@
+
+@import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
+/* --- css titre* --- */
+
+#title {
+	
+	margin-top: 0;
+    height: 220px;
+    background-position: left-side;
+    position: relative;
+	top: 20px;
+	background-repeat: no-repeat;
+    background-image: url(img/WildCircus.png);
+	top: 0;
+}
+
+    #title {
+	
+	margin-top: 0;
+    height: 220px;
+    background-position: left-side;
+    position: relative;
+	top: 20px;
+	background-repeat: no-repeat;
+    background-image: url(img/WildCircus.png);
+    background-image: -wekit- url(img/WildCircus.png);
+	background-image: -moz- url(img/WildCircus.png);
+	top: 0;
+	background-position: fixed! important;
+
+}
+
+#title h1 {
+	
+	position: relative;
+	font-weight: bold;
+	font-size: 60px;
+	top: 70px;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+             1px 0 0 rgba(0, 0, 0, 0.8),
+             0 -1px 0 rgba(0, 0, 0, 0.8),
+             0 1px 0 rgba(0, 0, 0, 0.8);
+}
+#title h1 {
+	
+	position: relative;
+	font-weight: bold;
+	font-size: 60px;
+	top: 70px;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: -1px 0 0 rgba(0, 0, 0, 0.8), 
+             1px 0 0 rgba(0, 0, 0, 0.8),
+             0 -1px 0 rgba(0, 0, 0, 0.8),
+             0 1px 0 rgba(0, 0, 0, 0.8);
+}
+#tittle {
+    margin:10px 25px;
+}
+html {
+	background-color: #a40200;
+	background-image: url("img/frame.jpg");
+	background-attachment:fixed;
+	background-position: cover;
+	background-repeat:no-repeat;
+}
+html,body {
+	height:100%;
+	font-family:Arial, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	color:#fff;
+}
+body {
+	line-height:1;
+}
+
+/* --- fin css titre --- */
+
+/* --- css menu --- */
+#menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+	line-height : 35px;
+	text-align : left;
+}
+.sous-menu {
+     display : block;
+	 padding : 0;
+	 margin: 0 auto;
+	 color : black;
+	 text-decoration : none;
+	 list-style-type : none;
+     position : absolute;
+	 left : -999px; 
+	
+	 
+	
+}
+#menu-deroulant {
+/* on centre le menu dans la page*/ 
+    display: block;
+    background: rgba(0, 0, 0, 0.4);
+    color: black;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	max-height: 70px;
+    text-align: center;
+    font-weight : bold;
+	font-family : Arial;
+	font-size : 20px;
+	
+	
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement*/
+    display: inline-block;
+	list-style-type : none;
+	padding: 0px 0.1px 0px 0.1px;
+	position: center;
+	
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu*/ 
+    display: inherit;
+	
+}
+#menu-deroulant  a {
+    text-decoration: none;
+    display: block;
+	color: #fff;
+	text-align: center;
+	padding : 0;
+	background : black;
+	color : #fff;
+	text-decoration : none;
+	width : 199px;  /*taille des fonds*/	
+	
+	
+}
+#menu-deroulante a{
+     display : block;
+	 padding : 0;
+	 margin-left : -40px;
+	 background : black;
+	 color : #fff;
+	 text-decoration : none;
+     width : 300px;  /*taille des fonds*/
+	 
+	 
+}	 
+/*#menu-deroulant ul {
+    position: absolute;
+ on cache les sous menus complètement sur la gauche
+    left: -999em;
+    text-align: left;
+    z-index: 1000;
+	
+}*/	
+#menu ul li:first-child a:after{
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid black;
+}
+#menu ul li:first-child a:hover:after{
+    border-bottom-color: gray;
+}	
+#menu-deroulant a:hover {
+     color : #fff;
+	 
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus*/
+    left: auto;
+	
+}*/
+#menu-deroulant li ul{
+	 width : 144px;
+     position : absolute;
+}
+#menu-deroulant li ul li{
+     border-bottom : 1px solid #fff; /*séparation par le bas*/ 
+}
+#menu-deroulant li li ul{
+     top: 0px ; 
+	
+}
+#menu-deroulant a:hover{
+     color : #fff;
+	 background : gray; /*couleur survol*/
+}
+#menu-deroulant li:hover ul {
+    left: auto;
+}
+/* --- fin css menu --- */
+
+/* --- slide --- */
+#slide {
+	margin-top: 100px;
+	
+}
+a { 
+	text-decoration:none; 
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 50px;
+  color: White;
+  margin: 100px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  
+}
+h2 {
+  font-size: 30px;
+  background-color: #fff;
+  text-align: center;
+  color: black;
+  margin: 70px 0 70px 0;
+}
+p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: justify;
+  text-align: center;
+  background-color: #9C0000;
+  border-radius: 12px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 5px;
+  margin-bottom: 50px;
+}
+/* jssor slider bullet navigator skin 01 css */
+        /*
+        .jssorb01 div           (normal)
+        .jssorb01 div:hover     (normal mouseover)
+        .jssorb01 .av           (active)
+        .jssorb01 .av:hover     (active mouseover)
+        .jssorb01 .dn           (mousedown)
+        */
+        .jssorb01 {
+            position: absolute;
+        }
+        .jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 12px;
+            height: 12px;
+            filter: alpha(opacity=70);
+            opacity: .7;
+            overflow: hidden;
+            cursor: pointer;
+            border: #000 1px solid;
+        }
+        .jssorb01 div {
+			background-color: gray; }
+        .jssorb01 div:hover, .jssorb01 .av:hover {
+			background-color: #d3d3d3; }
+        .jssorb01 .av {
+			background-color: #fff; }
+        .jssorb01 .dn, .jssorb01 .dn:hover {
+			background-color: #555555; }
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l {
+			background-position: -3px -33px; }
+        .jssora02r { 
+			background-position: -63px -33px; }
+        .jssora02l:hover { 
+			background-position: -123px -33px; }
+        .jssora02r:hover {
+			background-position: -183px -33px; }
+        .jssora02l.jssora02ldn {
+			background-position: -3px -33px; }
+        .jssora02r.jssora02rdn {
+			background-position: -63px -33px; }
+/* --- fin slide --- */
+
+/* --- contenu --- */
+article {
+	margin-top: 50px;
+}
+
+
+/* --- fin contenu --- */
+
+/* --- css formulaire contact --- */
+
+.myform  {
+margin-top: 50px;
+
+}
+.cssform{
+margin-left: 500px;
+margin-top: 130px;
+}
+.cssform p{	
+width: 300px;
+clear: left;
+margin: -20px;
+padding: 5px 0 8px 0;
+padding: 20px; 
+height: 1%;
+}
+.cssform label{
+display: inline;
+font-weight: bold;
+position: center;
+margin: 0;
+width: 50px;
+}
+#user {
+	border-radius: 15px;
+	margin: 2px;
+	padding: 5px;
+	outline: none;
+}
+#emailaddress {
+	border-radius: 15px;
+	padding: 5px;
+	outline: none;
+}
+#send input {
+	margin-top: 10px;
+	border-radius: 5px;
+	background-color: black;
+	color: #fff;
+	padding: 5px;
+	margin-bottom: 50px;
+	
+}
+.cssform input[type=&quot;text&quot;]{
+width: 180px;
+padding: 5px;
+
+}
+.cssform textarea{
+border-radius: 15px;
+width: 250px;
+height: 150px;
+padding: 5px;
+outline: none;
+}
+/* --- fin css formulaire contact --- */
+
+
+
+/* --- FOOTER --- */
+#footer { 
+    background:rgba(0, 0, 0, 1);
+	
+	color: white;
+	padding:15px 0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	max-width: 100%;
+    text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	bottom: 0;
+	
+	
+	
+}
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
